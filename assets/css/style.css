@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-wrap {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav .nav-items {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+nav .nav-items li {
+	padding-left: 30px;
+}
+
+nav .nav-items li a {
+	text-decoration: none;
+}
+
+.portrait {
+	float: left;
+	margin-right: 20px;
+}
