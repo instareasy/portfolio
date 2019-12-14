@@ -1,18 +1,13 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url('../images/spikes.png');
-	height: 100%;
+	background-image: url('../images/qbkls.png');
 }
 
-.main-content {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-.main-wrap {
+.nav-wrap {
 	background-color: #ffffff;
 	border-bottom: 1px solid #cccccc;
+	margin-bottom: 40px;
 }
 
 nav {
@@ -49,11 +44,16 @@ nav .nav-items li a {
 	color: #777777;
 }
 
+nav .nav-items li a:hover {
+	color: #4aaaa5;
+}
+
 .main-content {
+	max-width: 900px;
+	margin: 0 auto;
 	background-color: #ffffff;
 	border: #dddddd;
 	padding: 20px 30px;
-	margin-top: 30px;
 }
 
 .portrait {
@@ -68,9 +68,25 @@ p {
 	line-height: 1.4em;
 }
 
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+input,
+textarea {
+	width: 97%;
+}
+
+input {
+	padding: 10px;
+}
+
 footer {
-	clear: both;
-	margin-top: 40px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 2.3rem;
 	padding-top: 50px;
 	text-align: center;
 	background-color: #666666;
