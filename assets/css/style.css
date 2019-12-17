@@ -58,6 +58,7 @@ nav .nav-items li a:hover {
 
 .portrait {
 	float: left;
+	margin-top: 20px;
 	margin-right: 20px;
 }
 
@@ -80,6 +81,16 @@ textarea {
 
 input {
 	padding: 10px;
+	margin-bottom: 20px;
+}
+
+form input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: .5rem 1rem;
+	font-size: 1.2rem;
+	width: 20%;
+	border-radius: .3rem;
 }
 
 footer {
