@@ -52,15 +52,16 @@ nav .nav-items li a:hover {
 }
 
 .main-content {
-	max-width: 900px;
+	max-width: 960px;
 	margin: 0 auto;
 	background-color: #ffffff;
 	border: #dddddd;
 	padding: 20px 30px;
 }
 
-section {
+section.projects {
 	margin: 30px auto;
+	display: flex;
 }
 
 section .project-img {
@@ -68,6 +69,16 @@ section .project-img {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	margin: 0px 5px 5px 0px;
+}
+
+.card {
+	margin-right: 10px;
+	text-align: center;
+	float: left;
+}
+
+.btn-primary {
+	background-color: #4aaaa5;
 }
 
 .portrait {
@@ -120,8 +131,7 @@ footer {
 	overflow: hidden;
 	bottom: 0;
 	width: 100%;
-	height: 2.3rem;
-	padding-top: 50px;
+	padding: 25px;
 	text-align: center;
 	background-color: #666666;
 	border-top: 8px solid #4aaaa5;
