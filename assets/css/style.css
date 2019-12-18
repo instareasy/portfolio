@@ -63,6 +63,13 @@ section {
 	margin: 30px auto;
 }
 
+section .project-img {
+	max-width: 25%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 0px 5px 5px 0px;
+}
+
 .portrait {
 	float: left;
 	margin-right: 20px;
