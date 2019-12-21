@@ -1,2 +1,2 @@
 # Personal Portfolio Project
-For now this will be a barebones portfolio site. The purpose of the project is to have a website were potential employers can learn more about me, find contact information, and see which projects I've done or are currently working on. Another purpose behind this project is to start adding Git and Github to my development workflow, at least when it comes to longer term projects. 
+This is a barebones portfolio site. 
