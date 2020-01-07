@@ -75,7 +75,7 @@ section.projects {
 }
 
 .card {
-	margin-right: 10px;
+	margin: 10px;
 	text-align: center;
 }
 
@@ -150,5 +150,13 @@ footer {
 
 	nav .nav-items li {
 		padding: 0px 10px;
+	}
+
+	.main-content {
+		margin: 50px auto;
+	}
+
+	section.projects {
+		flex-direction: column;
 	}
 }
