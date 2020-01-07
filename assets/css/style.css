@@ -99,25 +99,19 @@ p {
 form {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	width: 100%;
-}
-
-form label {
-	display: block;
-	padding-bottom: 7px;
 }
 
 input,
 textarea {
 	font-size: 0.89em;
 	width: 100%;
-	outline: none;
+	border: 1px solid #777777;
 }
 
 input {
 	box-sizing: border-box;
-	margin-bottom: 20px;
-	padding: 10px 10px;
+	margin: 10px 0px;
+	padding: 10px;
 }
 
 form input[type=submit] {
@@ -126,7 +120,8 @@ form input[type=submit] {
 	color: white;
 	margin-top: 10px;
 	font-size: 1.2rem;
-	width: 20%;
+	padding: 15px;
+	width: 200px;
 }
 
 footer {
