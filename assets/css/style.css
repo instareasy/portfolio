@@ -126,9 +126,29 @@ form input[type=submit] {
 
 footer {
 	width: 100%;
-	padding: 25px;
+	padding: 25px 0px;
 	text-align: center;
 	background-color: #666666;
 	border-top: 8px solid #4aaaa5;
 	color: white;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+	nav {
+		display: block;
+	}
+
+	#logo {
+		text-align: center;
+	}
+
+	nav .nav-items {
+		padding: 20px;
+		justify-content: center;
+	}
+
+	nav .nav-items li {
+		padding: 0px 10px;
+	}
 }
