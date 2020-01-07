@@ -3,10 +3,20 @@ body {
 	background-image: url('../images/qbkls.png');
 }
 
+.img-fluid {
+	max-width: 100%;
+}
+
+.main-wrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between;
+}
+
 .nav-wrap {
 	background-color: #ffffff;
 	border-bottom: 1px solid #cccccc;
-	margin-bottom: 60px;
 }
 
 nav {
@@ -52,7 +62,7 @@ nav .nav-items li a:hover {
 }
 
 .main-content {
-	max-width: 960px;
+	max-width: 900px;
 	margin: 0 auto;
 	background-color: #ffffff;
 	border: #dddddd;
@@ -67,7 +77,6 @@ section.projects {
 .card {
 	margin-right: 10px;
 	text-align: center;
-	float: left;
 }
 
 .btn-primary {
@@ -76,7 +85,7 @@ section.projects {
 
 .portrait {
 	float: left;
-	margin-right: 20px;
+	padding-right: 20px;
 }
 
 p {
@@ -90,6 +99,7 @@ p {
 form {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	width: 100%;
 }
 
 form label {
@@ -120,9 +130,6 @@ form input[type=submit] {
 }
 
 footer {
-	position: fixed;
-	overflow: hidden;
-	bottom: 0;
 	width: 100%;
 	padding: 25px;
 	text-align: center;
