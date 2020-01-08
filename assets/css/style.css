@@ -40,6 +40,13 @@ h1 {
 	color: #4aaaa5;
 }
 
+hr {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
 nav .nav-items {
 	display: flex;
 	align-items: center;
@@ -120,7 +127,6 @@ input,
 textarea {
 	font-size: 0.89em;
 	width: 100%;
-	border: 1px solid #777777;
 }
 
 input {
@@ -173,7 +179,7 @@ footer {
 
 	.portrait {
 		width: 100%;
-		margin-bottom: 15px;
+		margin: 15px auto;
 	}
 
 	section.projects {
