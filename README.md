@@ -32,7 +32,7 @@ See live demo [here](https://yarocruz.github.io/portfolio/)
 
 [MIT](/LICENSE)
 
-Feel free to clone this repo and modify accordingly.
+Feel free to clone this repo and modify as you wish.
 
 
 
