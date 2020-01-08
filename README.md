@@ -30,7 +30,7 @@ See demo [here](https://yarocruz.github.io/portfolio/)
 
 ## License 
 
-[MIT](/LICENSE) 2020
+[MIT](/LICENSE)
 
 Feel free to clone this repo and modify accordingly.
 
