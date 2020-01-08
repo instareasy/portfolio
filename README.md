@@ -26,7 +26,7 @@ Since it only has three main div's this solution I think works the best.
 
 ## Demo
 
-See demo [here](https://yarocruz.github.io/portfolio/)
+See live demo [here](https://yarocruz.github.io/portfolio/)
 
 ## License 
 
