@@ -8,11 +8,11 @@ This is a simple portfolio static website. One of the purposes of the project wa
 
 ## Technologies
 
-Built with plain ol' HTML and CSS. Uses the [Meyer Web](https://meyerweb.com/eric/tools/css/reset/) CSS reset. Media queries were added accordingly. I also used [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) to build the navigation. 
+Built with plain ol' HTML and CSS. Uses the [Meyer Web](https://meyerweb.com/eric/tools/css/reset/) CSS reset. Media queries were added accordingly to make website responsive. I also used [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) to build the navigation. 
 
 ## Problems / Solutions
 
-One of the biggest issues I had with this project was finding a good solution for making the footer stay at the bottom. Since there isn't enough content to push it down, my first attempt was to to use fixed positioning, but that created issues in mobile view. I ended up googling and found a neat solution on [Stack Overflow](https://stackoverflow.com/questions/50429737/sticky-footer-with-flexbox)
+One of the biggest issues I had with this project was finding a good solution for making the footer stay at the bottom. Since there isn't enough content to push it down, my first attempt was to to use fixed positioning, but that created issues in mobile view. I ended up googling and found a good solution on [Stack Overflow](https://stackoverflow.com/questions/50429737/sticky-footer-with-flexbox)
 
 ```
 .main-wrap {
@@ -27,5 +27,14 @@ Since it only has three main div's this solution I think works the best.
 ## Demo
 
 See demo [here](https://yarocruz.github.io/portfolio/)
+
+## License 
+
+[MIT](/LICENSE) 2020
+
+Feel free to clone this repo and modify accordingly.
+
+
+
 
 
