@@ -127,6 +127,7 @@ input,
 textarea {
 	font-size: 0.89em;
 	width: 100%;
+	border: 1px solid #ccc;
 }
 
 input {
